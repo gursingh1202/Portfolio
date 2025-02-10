@@ -1,4 +1,4 @@
-# Gurpreet Singh
+## Gurpreet Singh
 ## About Me
 I am a Computer Science graduate with a strong background in Machine Learning and Data Science. Passionate about technology, I have a deep interest in artificial intelligence, fintech, and cloud computing. With experience in developing data-driven solutions, I thrive on leveraging AI and cutting-edge technologies to drive innovation and solve complex problems.
 
