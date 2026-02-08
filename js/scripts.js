@@ -1,19 +1,37 @@
-// Navbar toggle
+// Hamburger menu toggle
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 
 menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
+    navLinks.classList.toggle('active');
+    menuToggle.querySelector('i').classList.toggle('fa-bars');
+    menuToggle.querySelector('i').classList.toggle('fa-xmark');
 });
 
-// Animate skill circles
-const skillCircles = document.querySelectorAll(".skill-circle");
-skillCircles.forEach(circle => {
-    const percent = circle.getAttribute("data-percent");
-    let start = 0;
-    const interval = setInterval(() => {
-        start++;
-        circle.style.background = `conic-gradient(#3498db 0% ${start}%, #e0e0e0 ${start}% 100%)`;
-        if (start >= percent) clearInterval(interval);
-    }, 15);
+// Timeline hover animation
+document.querySelectorAll('.timeline-content').forEach(box => {
+    box.addEventListener('mousemove', e => {
+        const rect = box.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        box.style.transform = `translate(${x/50}px, ${y/50}px)`;
+    });
+
+    box.addEventListener('mouseleave', () => {
+        box.style.transform = `translate(0,0)`;
+    });
+});
+
+// Optional: Smooth scroll for nav links
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth' });
+        if(navLinks.classList.contains('active')) {
+            navLinks.classList.remove('active');
+            menuToggle.querySelector('i').classList.add('fa-bars');
+            menuToggle.querySelector('i').classList.remove('fa-xmark');
+        }
+    });
 });
