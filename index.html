@@ -3,170 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Gurpreet Singh - Data Analyst Portfolio">
-    <meta name="author" content="Gurpreet Singh">
-    <title>Gurpreet Singh | Data Analyst</title>
+    <title>Gurpreet Singh - Data Analyst</title>
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/YOUR_FA_KIT_CODE.js" crossorigin="anonymous"></script>
-    <!-- CSS -->
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
-<header class="header">
+    <!-- Navbar -->
     <nav class="navbar">
-        <a href="#home" class="logo">Gurpreet Singh</a>
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contacts">Contacts</a>
-            <a href="#languages">Languages</a>
+        <div class="container">
+            <a href="#home" class="logo">Gurpreet Singh</a>
+            <ul class="nav-links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#workexperience">Experience</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+            <button class="menu-toggle"><i class="fas fa-bars"></i></button>
         </div>
-        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
     </nav>
-</header>
 
-<!-- HERO -->
-<section id="home" class="hero">
-    <div class="hero-content">
-        <h1>Gurpreet Singh</h1>
-        <p>Data Analyst | Machine Learning | Data Visualization</p>
-        <a href="assets/Gurpreet_Singh_CV.docx" class="btn">Download CV</a>
-        <a href="https://www.linkedin.com/in/gurpreetsingh002" target="_blank" class="btn btn-light">LinkedIn</a>
-    </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="section skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-        <button class="skill"><i class="fab fa-python"></i> Python</button>
-        <button class="skill"><i class="fab fa-java"></i> Java</button>
-        <button class="skill"><i class="fab fa-js"></i> JavaScript</button>
-        <button class="skill"><i class="fab fa-php"></i> PHP</button>
-        <button class="skill"><i class="fab fa-css3-alt"></i> CSS</button>
-        <button class="skill"><i class="fab fa-linux"></i> Linux</button>
-        <button class="skill"><i class="fab fa-git-alt"></i> GitHub</button>
-        <button class="skill"><i class="fab fa-aws"></i> AWS</button>
-        <button class="skill"><i class="fab fa-html5"></i> HTML</button>
-        <button class="skill"><i class="fas fa-database"></i> SQL/MySQL/SQLite/Firebase</button>
-        <button class="skill"><i class="fab fa-python"></i> Pandas/NumPy/Matplotlib/Seaborn</button>
-        <button class="skill"><i class="fab fa-python"></i> Scikit-learn/TensorFlow/Keras</button>
-        <button class="skill"><i class="fab fa-python"></i> BeautifulSoup/Requests/Selenium</button>
-        <button class="skill"><i class="fab fa-microsoft"></i> Excel</button>
-        <button class="skill"><i class="fab fa-google"></i> Google Cloud/Colab</button>
-        <button class="skill"><i class="fab fa-shopify"></i> Shopify</button>
-    </div>
-</section>
-
-<!-- EXPERIENCE -->
-<section id="experience" class="section experience">
-    <h2>Experience</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <div class="timeline-date">Feb 2024 - Nov 2024</div>
-            <div class="timeline-content">
-                <h3>Researcher | United Italian Societies Research Centre</h3>
-                <p>Managed quantitative research, Python & ML analysis, predictive modeling, data visualization, network-based and graph-oriented data analysis, academic writing and presentation.</p>
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="container hero-content">
+            <h1>Gurpreet Singh</h1>
+            <p>Data Analyst | Python, SQL, Data Visualization, Research</p>
+            <p>Turning data into actionable insights through research, analysis, and machine learning.</p>
+            <div class="hero-buttons">
+                <a href="assets/Gurpreet_Singh_CV.docx" class="btn btn-primary">Download CV</a>
+                <a href="https://github.com/gursingh1202" target="_blank" class="btn btn-outline">GitHub</a>
+                <a href="https://www.linkedin.com/in/gurpreetsingh002" target="_blank" class="btn btn-outline">LinkedIn</a>
             </div>
         </div>
-        <div class="timeline-item">
-            <div class="timeline-date">Sep 2021 - Jun 2022</div>
-            <div class="timeline-content">
-                <h3>Society Secretary | BCUSU</h3>
-                <p>Managed events, improved collaboration and communication, conflict resolution, cross-functional relationship building.</p>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="assets/icons/python.svg" alt="Python" class="skill-icon">
+                    <p>Python</p>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/icons/sql.svg" alt="SQL" class="skill-icon">
+                    <p>SQL</p>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/icons/pandas.svg" alt="Pandas" class="skill-icon">
+                    <p>Pandas</p>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/icons/matplotlib.svg" alt="Matplotlib" class="skill-icon">
+                    <p>Matplotlib</p>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/icons/aws.svg" alt="AWS" class="skill-icon">
+                    <p>AWS</p>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/icons/git.svg" alt="Git" class="skill-icon">
+                    <p>Git</p>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/icons/tensorflow.svg" alt="TensorFlow" class="skill-icon">
+                    <p>TensorFlow</p>
+                </div>
+                <div class="skill-card">
+                    <img src="assets/icons/excel.svg" alt="Excel" class="skill-icon">
+                    <p>Excel</p>
+                </div>
             </div>
         </div>
-        <div class="timeline-item">
-            <div class="timeline-date">Jul 2021 - Aug 2021</div>
-            <div class="timeline-content">
-                <h3>Warehouse Operative | Amazon</h3>
-                <p>Exceeded productivity targets, quality assurance, process optimization in a high-paced environment.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="assets/img/project1.svg" alt="Market Analysis" class="project-img">
+                    <h3>Market Analysis with Python</h3>
+                    <p><strong>Problem:</strong> Investigated geopolitics impact on financial markets.</p>
+                    <p><strong>Approach:</strong> Python, Pandas, Seaborn, SQL</p>
+                    <p><strong>Outcome:</strong> Identified actionable insights for investment strategy.</p>
+                    <a href="https://github.com/gursingh1202/research" target="_blank" class="btn btn-sm">View Code</a>
+                </div>
+                <div class="project-card">
+                    <img src="assets/img/project2.svg" alt="ML Models" class="project-img">
+                    <h3>Machine Learning Predictive Models</h3>
+                    <p><strong>Problem:</strong> Built predictive models for finance & healthcare.</p>
+                    <p><strong>Approach:</strong> Python, Scikit-learn, TensorFlow</p>
+                    <p><strong>Outcome:</strong> Improved prediction accuracy and insights visualization.</p>
+                    <a href="https://github.com/gursingh1202/ML-AIprojects" target="_blank" class="btn btn-sm">View Code</a>
+                </div>
+                <div class="project-card">
+                    <img src="assets/img/project3.svg" alt="Cloud Infrastructure" class="project-img">
+                    <h3>Cloud Infrastructure Setup</h3>
+                    <p><strong>Problem:</strong> Deploy scalable web apps & databases.</p>
+                    <p><strong>Approach:</strong> AWS, Docker, Firebase, CI/CD</p>
+                    <p><strong>Outcome:</strong> Reliable, scalable infrastructure with minimal downtime.</p>
+                    <a href="https://github.com/gursingh1202/Cloudprojects" target="_blank" class="btn btn-sm">View Code</a>
+                </div>
             </div>
         </div>
-        <div class="timeline-item">
-            <div class="timeline-date">Jul 2020</div>
-            <div class="timeline-content">
-                <h3>Intern | Young Professionals</h3>
-                <p>Engaged with industry leaders (Rolls Royce, IBM), networked with executives, focused on career development and research projects.</p>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="workexperience" class="section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-date">Feb 2024 – Nov 2024</span>
+                    <h3>Research Analyst</h3>
+                    <p>United Italian Societies Research Centre</p>
+                    <ul>
+                        <li>Collected & analyzed economic data using Python & MATLAB</li>
+                        <li>Produced actionable reports for investment strategy</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2021 – 2024</span>
+                    <h3>BSc Computer Science</h3>
+                    <p>Birmingham City University, UK</p>
+                    <ul>
+                        <li>Thesis: Geopolitics impact on financial markets using Python, SQL, ML</li>
+                        <li>Analyzed large datasets and visualized insights for research projects</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- PROJECTS -->
-<section id="projects" class="section projects">
-    <h2>Projects</h2>
-    <div class="projects-scroll">
-        <div class="project-card">
-            <a href="https://github.com/gursingh1202/research">
-                <img src="assets/img/category1.jpg" alt="">
-                <h3>Thesis & Research</h3>
-            </a>
+    <!-- Contact Section -->
+    <section id="contacts" class="section bg-light">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:gur.singh1202@gmail.com">gur.singh1202@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/gursingh1202" target="_blank">github.com/gursingh1202</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/gurpreetsingh002" target="_blank">linkedin.com/in/gurpreetsingh002</a></p>
         </div>
-        <div class="project-card">
-            <a href="https://github.com/gursingh1202/ML-AIprojects">
-                <img src="assets/img/category2.jpg" alt="">
-                <h3>Machine Learning & AI</h3>
-            </a>
-        </div>
-        <div class="project-card">
-            <a href="https://github.com/gursingh1202/Cloudprojects">
-                <img src="assets/img/category3.jpg" alt="">
-                <h3>Cloud</h3>
-            </a>
-        </div>
-        <div class="project-card">
-            <a href="https://github.com/gursingh1202/dataAnalysisProjects">
-                <img src="assets/img/category4.jpg" alt="">
-                <h3>Data Analysis</h3>
-            </a>
-        </div>
-        <div class="project-card">
-            <a href="https://github.com/gursingh1202/webDevProjects">
-                <img src="assets/img/category5.jpg" alt="">
-                <h3>Web Development</h3>
-            </a>
-        </div>
-        <div class="project-card">
-            <a href="https://github.com/gursingh1202/SoftwareDevProjects">
-                <img src="assets/img/category6.jpg" alt="">
-                <h3>Software Development</h3>
-            </a>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- CONTACTS -->
-<section id="contacts" class="section contacts">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:gur.singh1202@gmail.com">gur.singh1202@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/gurpreetsingh002" target="_blank">www.linkedin.com/in/gurpreetsingh002</a></p>
-    <p>GitHub: <a href="https://github.com/gursingh1202" target="_blank">github.com/gursingh1202</a></p>
-</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Gurpreet Singh | Data Analyst</p>
+        </div>
+    </footer>
 
-<!-- LANGUAGES -->
-<section id="languages" class="section languages">
-    <h2>Languages</h2>
-    <ul>
-        <li>English (Fluent/Bilingual)</li>
-        <li>Punjabi (Fluent/Bilingual)</li>
-        <li>Italian (Fluent/Bilingual)</li>
-        <li>French (Beginner)</li>
-        <li>Hindi (Beginner)</li>
-    </ul>
-</section>
-
-<!-- FOOTER -->
-<footer>
-    <p>© 2026 Gurpreet Singh Portfolio</p>
-</footer>
-
-<!-- JS -->
-<script src="js/scripts.js"></script>
+    <!-- JS -->
+    <script src="js/scripts.js"></script>
 </body>
 </html>
