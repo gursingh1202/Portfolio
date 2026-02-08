@@ -1,153 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A professional portfolio of Gurpreet Singh" />
-    <title>Gurpreet Singh - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurpreet Singh | Data Analyst Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">Gurpreet Singh</div>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="container nav-container">
+        <a href="#home" class="logo">Gurpreet Singh</a>
         <button class="menu-toggle"><i class="fas fa-bars"></i></button>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#workexperience">Experience</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#contacts">Contact</a></li>
+            <li><a href="#contacts">Contacts</a></li>
         </ul>
-    </nav>
+    </div>
+</nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="hero-content">
-            <h1>Gurpreet Singh</h1>
-            <p>Data Analyst | Machine Learning | Cloud Computing</p>
-            <div class="hero-buttons">
-                <a href="assets/GurpreetSingh_CV.docx" class="btn btn-primary">Curriculum Italiano</a>
-                <a href="assets/Gurpreet_Singh_CV.docx" class="btn btn-outline">CV Inglese</a>
-                <a href="https://www.linkedin.com/in/gurpreetsingh002" target="_blank" class="btn btn-primary">LinkedIn</a>
-            </div>
+<!-- HEADER -->
+<header id="home" class="masthead">
+    <div class="header-content container">
+        <h1>Gurpreet Singh</h1>
+        <p>Results-driven Data Analyst | Python | Machine Learning | Data Visualization</p>
+        <div class="header-buttons">
+            <a href="assets/GurpreetSingh_CV.docx" class="btn btn-primary">Curriculum Italiano</a>
+            <a href="assets/Gurpreet_Singh_CV.docx" class="btn btn-light">CV Inglese</a>
+            <a href="https://www.linkedin.com/in/gurpreetsingh002" target="_blank" class="btn btn-primary">LinkedIn</a>
         </div>
-    </section>
+    </div>
+    <div class="scroll-down">
+        <a href="#skills"><i class="fas fa-chevron-down"></i></a>
+    </div>
+</header>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card"><i class="fab fa-python"></i><p>Python</p></div>
-            <div class="skill-card"><i class="fab fa-java"></i><p>Java</p></div>
-            <div class="skill-card"><i class="fab fa-js"></i><p>JavaScript</p></div>
-            <div class="skill-card"><i class="fab fa-php"></i><p>PHP</p></div>
-            <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
-            <div class="skill-card"><i class="fab fa-linux"></i><p>Linux</p></div>
-            <div class="skill-card"><i class="fab fa-git-alt"></i><p>GitHub</p></div>
-            <div class="skill-card"><i class="fab fa-aws"></i><p>AWS</p></div>
-            <div class="skill-card"><i class="fab fa-html5"></i><p>HTML</p></div>
-            <div class="skill-card"><i class="fas fa-database"></i><p>SQL/Databases</p></div>
-            <div class="skill-card"><i class="fab fa-python"></i><p>Pandas</p></div>
-            <div class="skill-card"><i class="fab fa-python"></i><p>Scikit-learn</p></div>
-            <div class="skill-card"><i class="fab fa-google"></i><p>Google Cloud</p></div>
-        </div>
-    </section>
-
-   <!-- Work Experience Section -->
-<section id="workexperience" class="section bg-light">
+<!-- SKILLS -->
+<section id="skills" class="section bg-light text-dark">
     <div class="container">
-        <h2 class="section-title text-center">Experience & Research</h2>
+        <h2 class="section-title text-center mb-5">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><div class="skill-circle" data-percent="95"><span>Python</span></div></div>
+            <div class="skill-card"><div class="skill-circle" data-percent="90"><span>SQL</span></div></div>
+            <div class="skill-card"><div class="skill-circle" data-percent="85"><span>Machine Learning</span></div></div>
+            <div class="skill-card"><div class="skill-circle" data-percent="80"><span>Data Visualization</span></div></div>
+            <div class="skill-card"><div class="skill-circle" data-percent="75"><span>AWS / Cloud</span></div></div>
+            <div class="skill-card"><div class="skill-circle" data-percent="70"><span>Web Dev</span></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section bg-white text-dark">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Work & Research Experience</h2>
         <div class="timeline">
 
             <!-- Researcher -->
-            <div class="timeline-item left">
+            <div class="timeline-item">
                 <div class="timeline-date">Feb 2024 - Nov 2024</div>
-                <h3>Market Research Analyst</h3>
-                <p>United Italian Societies Research Centre (Remote, UK)</p>
-                <ul>
-                    <li>Performed quantitative research into inflation and investment trends using Python & MATLAB.</li>
-                    <li>Applied advanced machine learning & statistical models to large-scale financial datasets.</li>
-                    <li>Developed predictive models and visualisations for high-impact decision-making.</li>
-                    <li>Conducted network & graph-oriented data analyses for interdisciplinary research.</li>
-                </ul>
-            </div>
-
-            <!-- Bachelor's Degree -->
-            <div class="timeline-item right">
-                <div class="timeline-date">2021 - 2024</div>
-                <h3>BSc (Hons) Computer Science</h3>
-                <p>Birmingham City University, UK</p>
-                <ul>
-                    <li>Final Year Project: Applied ML & NLP to study geopolitics in stock markets.</li>
-                    <li>Innovation Project: Built sustainable vehicle prototype using IoT & interdisciplinary methods.</li>
-                    <li>Modules: Data Structures & Algorithms, Machine Learning, Cloud Computing (AWS), Databases & Web Apps.</li>
-                </ul>
+                <div class="timeline-content">
+                    <h3>Researcher | United Italian Societies Research Centre</h3>
+                    <p>Remote, UK</p>
+                    <ul>
+                        <li>Quantitative research on inflation & investment trends.</li>
+                        <li>Python, machine learning, data visualization (Seaborn, Matplotlib).</li>
+                        <li>Network-based and graph data analysis.</li>
+                        <li>Academic writing and presentation at conferences.</li>
+                    </ul>
+                </div>
             </div>
 
             <!-- Society Secretary -->
-            <div class="timeline-item left">
+            <div class="timeline-item">
                 <div class="timeline-date">Sep 2021 - Jun 2022</div>
-                <h3>Society Secretary</h3>
-                <p>BCUSU, Birmingham, UK</p>
-                <ul>
-                    <li>Managed 15+ events; improved student engagement through data-driven planning.</li>
-                    <li>Built communication networks across departments to enhance collaboration.</li>
-                </ul>
+                <div class="timeline-content">
+                    <h3>Society Secretary | BCUSU</h3>
+                    <p>Birmingham, UK</p>
+                    <ul>
+                        <li>Managed 15+ society events, optimising collaboration.</li>
+                        <li>Built cross-functional relationships with faculty & institutions.</li>
+                    </ul>
+                </div>
             </div>
 
-            <!-- Warehouse Operative -->
-            <div class="timeline-item right">
+            <!-- Amazon -->
+            <div class="timeline-item">
                 <div class="timeline-date">Jul 2021 - Aug 2021</div>
-                <h3>Warehouse Operative</h3>
-                <p>Amazon, Rugeley, UK</p>
-                <ul>
-                    <li>Optimized processes and exceeded productivity targets by 20%.</li>
-                    <li>Applied operational data tracking to improve workflow efficiency.</li>
-                </ul>
+                <div class="timeline-content">
+                    <h3>Warehouse Operative | Amazon</h3>
+                    <p>Rugeley, UK</p>
+                    <ul>
+                        <li>Exceeded productivity targets by 20%.</li>
+                        <li>QA and process optimization for warehouse operations.</li>
+                    </ul>
+                </div>
             </div>
 
             <!-- Internship -->
-            <div class="timeline-item left">
+            <div class="timeline-item">
                 <div class="timeline-date">Jul 2020</div>
-                <h3>Intern</h3>
-                <p>Young Professionals, Remote, UK</p>
-                <ul>
-                    <li>Engaged with industry leaders (Rolls-Royce, IBM) for career development.</li>
-                    <li>Enhanced research skills and applied data analysis to real-world projects.</li>
-                </ul>
+                <div class="timeline-content">
+                    <h3>Intern | Young Professionals</h3>
+                    <p>Remote, UK</p>
+                    <ul>
+                        <li>Engaged with industry leaders (Rolls-Royce, IBM).</li>
+                        <li>Networking and career development.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- PROJECTS -->
+<section id="projects" class="section bg-light text-dark">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Projects</h2>
+        <div class="projects-scroll">
+            <a class="project-card" href="https://github.com/gursingh1202/research" target="_blank">
+                <img src="assets/img/category1.jpg" alt="Research Project">
+                <div class="project-info">
+                    <h3>Thesis & Research</h3>
+                    <p>Geopolitics & stock markets analysis with Python & ML.</p>
+                </div>
+            </a>
+            <a class="project-card" href="https://github.com/gursingh1202/ML-AIprojects" target="_blank">
+                <img src="assets/img/category2.jpg" alt="ML Project">
+                <div class="project-info">
+                    <h3>Machine Learning & AI</h3>
+                    <p>Predictive models for finance, healthcare, and other sectors.</p>
+                </div>
+            </a>
+            <a class="project-card" href="https://github.com/gursingh1202/Cloudprojects" target="_blank">
+                <img src="assets/img/category3.jpg" alt="Cloud Project">
+                <div class="project-info">
+                    <h3>Cloud</h3>
+                    <p>AWS infrastructure for web & app integration.</p>
+                </div>
+            </a>
+            <a class="project-card" href="https://github.com/gursingh1202/dataAnalysisProjects" target="_blank">
+                <img src="assets/img/category4.jpg" alt="Data Analysis Project">
+                <div class="project-info">
+                    <h3>Data Analysis</h3>
+                    <p>Web scraping & analytics for market & geopolitical studies.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contacts" class="section bg-light">
-        <h2>Contact</h2>
-        <p><i class="fas fa-envelope"></i> <a href="mailto:gur.singh1202@gmail.com">gur.singh1202@gmail.com</a></p>
-        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/gurpreetsingh002" target="_blank">linkedin.com/in/gurpreetsingh002</a></p>
-        <p><i class="fab fa-github"></i> <a href="https://github.com/gursingh1202" target="_blank">github.com/gursingh1202</a></p>
-    </section>
+<!-- CONTACT -->
+<section id="contacts" class="section bg-dark text-white">
+    <div class="container text-center">
+        <h2 class="section-title mb-4">Contact Me</h2>
+        <p>Email: <a href="mailto:gur.singh1202@gmail.com">gur.singh1202@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/gurpreetsingh002" target="_blank">linkedin.com/in/gurpreetsingh002</a></p>
+        <p>GitHub: <a href="https://github.com/gursingh1202" target="_blank">github.com/gursingh1202</a></p>
+    </div>
+</section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>© 2025 Gurpreet Singh Portfolio</p>
-    </footer>
+<!-- FOOTER -->
+<footer class="footer bg-black text-white text-center">
+    <p>&copy; 2026 Gurpreet Singh Portfolio</p>
+</footer>
 
-    <!-- JS -->
-    <script src="js/scripts.js"></script>
+<!-- JS -->
+<script src="js/scripts.js"></script>
 </body>
 </html>
