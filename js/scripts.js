@@ -1,35 +1,19 @@
-// Hamburger menu toggle
+// Navbar toggle
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 
 menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-    menuToggle.querySelector('i').classList.toggle('fa-bars');
-    menuToggle.querySelector('i').classList.toggle('fa-xmark');
+    navLinks.classList.toggle('show');
 });
 
-// Optional: smooth scroll
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href'))
-            .scrollIntoView({ behavior: 'smooth' });
-    });
+// Animate skill circles
+const skillCircles = document.querySelectorAll(".skill-circle");
+skillCircles.forEach(circle => {
+    const percent = circle.getAttribute("data-percent");
+    let start = 0;
+    const interval = setInterval(() => {
+        start++;
+        circle.style.background = `conic-gradient(#3498db 0% ${start}%, #e0e0e0 ${start}% 100%)`;
+        if (start >= percent) clearInterval(interval);
+    }, 15);
 });
-
-// Animate timeline items on scroll
-const timelineItems = document.querySelectorAll(".timeline-item");
-
-function showTimelineItems() {
-  const triggerBottom = window.innerHeight * 0.85;
-
-  timelineItems.forEach(item => {
-    const itemTop = item.getBoundingClientRect().top;
-    if (itemTop < triggerBottom) {
-      item.classList.add("show");
-    }
-  });
-}
-
-window.addEventListener("scroll", showTimelineItems);
-window.addEventListener("load", showTimelineItems);
