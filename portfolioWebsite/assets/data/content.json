@@ -1,0 +1,367 @@
+{
+  "profile": {
+    "name": "Gurpreet Singh",
+    "headline": "Risk & Data Analyst",
+    "tagline": "I analyse financial and operational data to identify risk, improve performance, and support evidence-based decision-making.",
+    "valueProposition": "I specialise in financial risk analysis, audit analytics, and performance reporting. My work focuses on transforming complex datasets into clear insights that support governance, compliance, and strategic decisions in regulated environments.",
+    "tools": [
+      "SQL",
+      "Excel",
+      "Power BI",
+      "Python",
+      "AWS"
+    ],
+    "heroImage": "assets/img/bg-masthead.jpg",
+    "languages": [
+      {
+        "name": "English",
+        "level": "Fluent/Bilingual"
+      },
+      {
+        "name": "Punjabi/Panjabi",
+        "level": "Fluent/Bilingual"
+      },
+      {
+        "name": "Italian",
+        "level": "Fluent/Bilingual"
+      },
+      {
+        "name": "French",
+        "level": "Beginner"
+      },
+      {
+        "name": "Hindi",
+        "level": "Beginner"
+      }
+    ],
+    "contact": {
+      "email": "gur.singh1202@gmail.com",
+      "linkedin": "https://linkedin.com/in/gurpreetsingh",
+      "github": "https://github.com/gurpreetsingh",
+      "closing": "Open to opportunities in Risk, Audit Analytics, and Data Analysis."
+    }
+  },
+  "about": {
+    "summary": "Commercially focused Business Information and Data Analyst with strong financial acumen and experience delivering high-quality management information, performance reporting and analytical insight within regulated environments. Proven ability to extract, validate and analyse large and complex datasets, produce clear reports for diverse audiences, and maintain robust audit trails.",
+    "whatIBring": [
+      "Translate complex data into clear insights",
+      "Build dashboards for financial & operational monitoring",
+      "Ensure data quality through validation and audit trails",
+      "Collaborate with finance, audit, and operational teams"
+    ]
+  },
+  "skills": [
+    {
+      "category": "Core Skills",
+      "items": [
+        {
+          "name": "SQL & Data Extraction",
+          "context": "Extracting large datasets from complex relational databases for audit and financial reporting."
+        },
+        {
+          "name": "Excel (Advanced)",
+          "context": "PivotTables, Power Query, and financial modeling for budget and revenue analysis."
+        },
+        {
+          "name": "Power BI Development",
+          "context": "Building interactive dashboards reducing reporting turnaround time and improving visibility."
+        },
+        {
+          "name": "Python (Pandas, NumPy)",
+          "context": "Developing automated validation checks and risk scoring models for financial datasets."
+        },
+        {
+          "name": "Financial & Risk Analysis",
+          "context": "Identifying cost drivers, financial risks, and performance trends in regulated environments."
+        },
+        {
+          "name": "Data Validation & Governance",
+          "context": "Implementing structured validation checks to maintain robust audit trails and data integrity."
+        }
+      ]
+    },
+    {
+      "category": "Cloud & Technical",
+      "items": [
+        {
+          "name": "AWS (S3, Athena, Lambda)",
+          "context": "Building scalable cloud data pipelines for automated risk data processing."
+        },
+        {
+          "name": "Machine Learning",
+          "context": "Applying supervised and unsupervised learning for risk scoring and predictive analytics."
+        },
+        {
+          "name": "Web Development",
+          "context": "Developing data-driven applications using HTML, CSS, and JavaScript/PHP."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Credit Risk Analysis",
+      "category": "Risk Analysis",
+      "date": "2023",
+      "image": "assets/img/category1.jpg",
+      "problem": "Assess borrower risk using financial indicators to reduce default rates.",
+      "data": "Synthetic credit dataset with income, debt, and repayment history.",
+      "approach": "Python-based logistic regression and financial ratio analysis.",
+      "insights": "Debt-to-income ratio identified as the strongest predictor of default risk.",
+      "impact": "Demonstrates credit risk modelling relevant to leading financial institutions.",
+      "tools": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "github": "https://github.com/gurpreetsingh/credit-risk-analysis"
+    },
+    {
+      "title": "Audit Analytics Dashboard",
+      "category": "Data Analytics",
+      "date": "2024",
+      "image": "assets/img/category2.jpg",
+      "problem": "Identify anomalies and potential compliance issues across transaction records.",
+      "data": "High-volume transaction records with timestamps and categories.",
+      "approach": "SQL data cleaning and Power BI anomaly detection visualizations.",
+      "insights": "Flagged irregular high-value transactions outside established normal patterns.",
+      "impact": "Directly supports audit and compliance teams in risk mitigation.",
+      "tools": [
+        "SQL",
+        "Power BI",
+        "Excel"
+      ],
+      "github": "https://github.com/gurpreetsingh/audit-analytics-dashboard"
+    },
+    {
+      "title": "Financial KPI Dashboard",
+      "category": "Data Analytics",
+      "date": "2023",
+      "image": "assets/img/category4.jpg",
+      "problem": "Monitor departmental performance against budget and revenue targets.",
+      "data": "Capital and revenue budget datasets with operational cost markers.",
+      "approach": "Excel and Power BI variance analysis with automated refresh.",
+      "insights": "Identified specific overspending trends in operational cost centers.",
+      "impact": "Supports data-driven cost control and financial planning.",
+      "tools": [
+        "Excel",
+        "Power BI",
+        "SQL"
+      ],
+      "github": "https://github.com/gurpreetsingh/financial-kpi-dashboard"
+    },
+    {
+      "title": "Data Quality & Validation Pipeline",
+      "category": "Data Infrastructure",
+      "date": "2024",
+      "image": "assets/img/category3.jpg",
+      "problem": "Improve reliability of reporting data by resolving missing or inconsistent values.",
+      "data": "Operational datasets containing legacy inconsistencies.",
+      "approach": "Python validation scripts with comprehensive event logging.",
+      "insights": "Detected systematic missing entries affecting critical KPI accuracy.",
+      "impact": "Improved reporting reliability and ensured audit readiness.",
+      "tools": [
+        "Python",
+        "JSON",
+        "CSV"
+      ],
+      "github": "https://github.com/gurpreetsingh/data-quality-pipeline"
+    },
+    {
+      "title": "Cloud Risk Data Pipeline",
+      "category": "Cloud Infrastructure",
+      "date": "2024",
+      "image": "assets/img/category5.jpg",
+      "problem": "Process large-scale datasets for scalable risk analysis in a cloud environment.",
+      "data": "Financial transactions stored in unstructured cloud object storage.",
+      "approach": "AWS S3 and Athena integrated with Power BI for querying.",
+      "insights": "Enabled 5x faster querying across multi-terabyte datasets.",
+      "impact": "Demonstrates capability with modern cloud-based data architecture.",
+      "tools": [
+        "AWS",
+        "S3",
+        "Athena"
+      ],
+      "github": "https://github.com/gurpreetsingh/cloud-risk-data-pipeline"
+    }
+  ],
+  "experience": {
+    "work": [
+      {
+        "date": "Feb 2024 - Nov 2024",
+        "title": "Researcher",
+        "organization": "United Italian Societies Research Centre",
+        "summary": "Delivered data-driven management information from complex financial datasets to support senior decision-making.",
+        "achievements": [
+          "Published findings on inflation and investments using predictive modeling.",
+          "Implemented structured validation checks and clear audit trails.",
+          "Utilized MATLAB and Python to provide comprehensive data visualisations."
+        ],
+        "impact": "Enabled more timely, transparent and informed financial and performance decisions."
+      },
+      {
+        "date": "Sep 2021 - Jun 2022",
+        "title": "Society Secretary",
+        "organization": "BCUSU",
+        "summary": "Coordinated performance and activity data for 15+ events.",
+        "achievements": [
+          "Produced reports and documentation for committees improving objective visibility.",
+          "Strengthened record-keeping processes for improved compliance."
+        ],
+        "impact": "Improved organisational oversight and reduced administrative inefficiencies."
+      },
+      {
+        "date": "Jul 2021 - Aug 2021",
+        "title": "Warehouse Operative",
+        "organization": "Amazon",
+        "summary": "Supported quality checks and data accuracy in a fast-paced logistics environment.",
+        "achievements": [
+          "Consistently exceeded productivity targets by 20%."
+        ],
+        "impact": "Supported high-performance operations through accuracy and efficiency."
+      }
+    ],
+    "volunteering": [
+      {
+        "date": "Jun 2025 - Sep 2025",
+        "title": "Administrative Volunteer",
+        "organization": "Municipality of Villachiara",
+        "summary": "Supported management information provision for local authority services.",
+        "achievements": [
+          "Extracted and validated data using municipal systems and Excel.",
+          "Maintained audit trails and produced clear output reports."
+        ],
+        "impact": "Improved reliability and usability of service data for local authority operations."
+      },
+      {
+        "date": "Sep 2018 - Present",
+        "title": "Helper",
+        "organization": "Local Gurdwara",
+        "summary": "Team collaboration and event management for community services.",
+        "achievements": [
+          "Conducted risk assessments to ensure health and safety compliance.",
+          "Assumed leadership roles in organizing and executing community events."
+        ],
+        "impact": "Enhanced community engagement and operational safety."
+      }
+    ]
+  },
+  "education": [
+    {
+      "date": "Sep 2021 - Jun 2024",
+      "title": "BSc (Hons) Computer Science",
+      "organization": "Birmingham City University",
+      "summary": "Focus on data analysis, machine learning, and performance reporting.",
+      "achievements": [
+        "Final Year Project: Geopolitics in stock markets using NLP and AI.",
+        "Developed analytical projects with extraction, validation and audit trails.",
+        "Innovation Project: Renewable car prototype using circuitry and Arduino."
+      ],
+      "impact": "Technical and analytical foundation for commercial reporting and budget monitoring."
+    },
+    {
+      "date": "Sep 2019 - Jun 2021",
+      "title": "A-Levels",
+      "organization": "King Edward VI College Stourbridge",
+      "summary": "Computer Science, Physics, BTEC Business."
+    },
+    {
+      "date": "Oct 2015 - Jun 2019",
+      "title": "GCSEs",
+      "organization": "Holly Lodge High School",
+      "summary": "10 GCSEs including English, Mathematics, and Computer Science."
+    }
+  ],
+  "professionalDevelopment": [
+    {
+      "name": "Goldman Sachs Risk Job Simulation on Forage",
+      "issuer": "Goldman Sachs",
+      "date": "Jan 2026",
+      "noExpand": true,
+      "achievements": [
+        "Completed a job simulation involving risk assessment and management for Goldman Sachs' Risk team.",
+        "Conducted individual credit risk analysis using quantified financial data, enhancing skills in personal finance evaluation.",
+        "Applied critical thinking and quantitative analysis to real estate scenarios, interpreting data to assess financial implications.",
+        "Developed and recommended risk mitigation strategies, demonstrating practical application of financial principles and market understanding."
+      ],
+      "motivation": "I recently participated in Goldman Sachs' job simulation on the Forage platform, and it provided a valuable glimpse into the role of a risk analyst. The project focused on risk assessment in finance, where I honed my Excel skills and developed a deeper understanding of financial analysis in a practical setting. This experience reinforced my interest in tackling complex financial challenges and has motivated me to pursue opportunities on a Risk team at a prestigious firm such as Goldman Sachs."
+    },
+    {
+      "name": "Goldman Sachs Controllers Job Simulation on Forage",
+      "issuer": "Goldman Sachs",
+      "date": "Jan 2026",
+      "achievements": [
+        "Completed a job simulation involving financial analysis and reporting.",
+        "Developed analytical skills through calculating Net Asset Valuation (NAV) and unitizing financial data.",
+        "Utilized Excel for detailed financial analysis, data validation, and trend analysis, leading to accurate financial reporting and reconciliation."
+      ],
+      "motivation": "I recently participated in Goldman Sachs' job simulation on the Forage platform, and it was useful to understand what it might be like to be part of the Controllers team as an Analyst at Goldman Sachs. I worked on a hypothetical project to calculate Net Asset Valuation (NAV) and manage financial reporting. I practiced using Excel and built my financial analysis skills in a real-world context. Completing this program confirmed that I really enjoy financial analysis and data validation tasks. I'm excited to apply these skills to a Controllers team at a firm like Goldman Sachs."
+    },
+    {
+      "name": "Goldman Sachs Internal Audit Job Simulation on Forage",
+      "issuer": "Goldman Sachs",
+      "date": "Feb 2026",
+      "achievements": [
+        "Completed a job simulation for Internal Audit at Goldman Sachs",
+        "Conducted comprehensive audits and risk assessments within the Global Banking and Markets division",
+        "Developed and recommended control improvements and compliance strategies, demonstrating the practical application of auditing principles"
+      ],
+      "motivation": "I recently participated in Goldman Sachs' job simulation on the Forage platform, and it provided a valuable glimpse into the role of an internal audit analyst. The project focused on internal audit processes in finance, where I honed my skills and developed a deeper understanding of risk assessment and compliance in a practical setting. This experience reinforced my interest in tackling complex auditing challenges and has motivated me to pursue opportunities on an Internal Audit team at a prestigious firm like Goldman Sachs."
+    },
+    {
+      "name": "Goldman Sachs Operations Job Simulation on Forage",
+      "issuer": "Goldman Sachs",
+      "date": "Feb 2026",
+      "achievements": [
+        "Completed a job simulation based on an Operations Analyst role at Goldman Sachs on Forage",
+        "Analyzed financial data and identified issues in trade settlements and asset transfers for high net worth clients",
+        "Collaborated with cross-functional teams, including Trading, Compliance, and IT, to resolve complex operational issues",
+        "Applied best practices in operational risk management and regulatory compliance, demonstrating a strong understanding of the role's requirements."
+      ],
+      "motivation": "I recently participated in Goldman Sachs' job simulation on the Forage platform, and it was incredibly useful to understand what it might be like to be part of an Operations team at Goldman Sachs. I worked on a project to streamline asset transfers and resolve trade settlement issues for high net worth clients. I developed my data analysis, problem-solving, and risk-management skills in a real-world context. Doing this program confirmed that I really enjoy working on operational challenges in financial services, and I'm excited to apply these skills to an Operations team at a company like Goldman Sachs."
+    },
+    {
+      "name": "NCS Certificate",
+      "issuer": "National Citizens Service",
+      "date": "2019",
+      "details": "Team-based community awareness campaign and soft skills development."
+    }
+  ],
+  "cloudOverview": {
+    "title": "Cloud & Infrastructure",
+    "summary": "I build cloud-based data pipelines that support scalable analytics and governance.",
+    "tools": [
+      "AWS S3",
+      "Athena",
+      "Lambda",
+      "Cloud dashboards"
+    ],
+    "useCases": [
+      "Risk data processing",
+      "Automated reporting pipelines",
+      "Scalable audit analytics"
+    ]
+  },
+  "githubRepos": [
+    {
+      "name": "Data Analysis Projects",
+      "url": "https://github.com/gurpreetsingh/dataAnalysisProjects"
+    },
+    {
+      "name": "ML & AI Projects",
+      "url": "https://github.com/gurpreetsingh/ML-AIprojects"
+    },
+    {
+      "name": "Research",
+      "url": "https://github.com/gurpreetsingh/research"
+    },
+    {
+      "name": "Software Development Projects",
+      "url": "https://github.com/gurpreetsingh/SoftwareDevProjects"
+    },
+    {
+      "name": "Web Development Projects",
+      "url": "https://github.com/gurpreetsingh/webDevProjects"
+    }
+  ]
+}
