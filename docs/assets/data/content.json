@@ -114,7 +114,7 @@
         "Pandas",
         "Scikit-Learn"
       ],
-      "github": "https://github.com/gurpreetsingh/credit-risk-analysis"
+      "github": "https://github.com/gursingh1202/dataAnalysisProjects"
     },
     {
       "title": "Audit Analytics Dashboard",
@@ -131,7 +131,7 @@
         "Power BI",
         "Excel"
       ],
-      "github": "https://github.com/gurpreetsingh/audit-analytics-dashboard"
+      "github": "https://github.com/gursingh1202/dataAnalysisProjects"
     },
     {
       "title": "Financial KPI Dashboard",
@@ -148,7 +148,7 @@
         "Power BI",
         "SQL"
       ],
-      "github": "https://github.com/gurpreetsingh/financial-kpi-dashboard"
+      "github": "https://github.com/gursingh1202/dataAnalysisProjects"
     },
     {
       "title": "Data Quality & Validation Pipeline",
@@ -165,7 +165,7 @@
         "JSON",
         "CSV"
       ],
-      "github": "https://github.com/gurpreetsingh/data-quality-pipeline"
+      "github": "https://github.com/gursingh1202/dataAnalysisProjects"
     },
     {
       "title": "Cloud Risk Data Pipeline",
@@ -345,23 +345,23 @@
   "githubRepos": [
     {
       "name": "Data Analysis Projects",
-      "url": "https://github.com/gurpreetsingh/dataAnalysisProjects"
+      "url": "https://github.com/gursingh1202/dataAnalysisProjects"
     },
     {
       "name": "ML & AI Projects",
-      "url": "https://github.com/gurpreetsingh/ML-AIprojects"
+      "url": "https://github.com/gursingh1202/ML-AIprojects"
     },
     {
       "name": "Research",
-      "url": "https://github.com/gurpreetsingh/research"
+      "url": "https://github.com/gursingh1202/research"
     },
     {
       "name": "Software Development Projects",
-      "url": "https://github.com/gurpreetsingh/SoftwareDevProjects"
+      "url": "https://github.com/gursingh1202/SoftwareDevProjects"
     },
     {
       "name": "Web Development Projects",
-      "url": "https://github.com/gurpreetsingh/webDevProjects"
+      "url": "https://github.com/gursingh1202/webDevProjects"
     }
   ]
 }
