@@ -100,15 +100,15 @@
   ],
   "projects": [
     {
-      "title": "Credit Risk Analysis",
+      "title": "Financial Market Sentiment Analysis",
       "category": "Risk Analysis",
-      "date": "2023",
+      "date": "2024",
       "image": "assets/img/category1.jpg",
-      "problem": "Assess borrower risk using financial indicators to reduce default rates.",
-      "data": "Synthetic credit dataset with income, debt, and repayment history.",
-      "approach": "Python-based logistic regression and financial ratio analysis.",
-      "insights": "Debt-to-income ratio identified as the strongest predictor of default risk.",
-      "impact": "Demonstrates credit risk modelling relevant to leading financial institutions.",
+      "problem": "Understand how geopolitical news and public sentiment influence stock volatility and investment behaviour.",
+      "data": "Financial market price data combined with news headlines and sentiment text datasets.",
+      "approach": "Applied NLP, regression modelling, and time-series forecasting in Python to analyse sentiment impact.",
+      "insights": "Negative sentiment spikes were strongly linked with short-term volatility and uncertainty.",
+      "impact": "Demonstrates market risk analytics skills relevant to investment banking and trading environments.",
       "tools": [
         "Python",
         "Pandas",
@@ -117,72 +117,74 @@
       "github": "https://github.com/gursingh1202/dataAnalysisProjects"
     },
     {
-      "title": "Audit Analytics Dashboard",
+      "title": "Stock Data Analysis & Forecasting",
       "category": "Data Analytics",
       "date": "2024",
       "image": "assets/img/category2.jpg",
-      "problem": "Identify anomalies and potential compliance issues across transaction records.",
-      "data": "High-volume transaction records with timestamps and categories.",
-      "approach": "SQL data cleaning and Power BI anomaly detection visualizations.",
-      "insights": "Flagged irregular high-value transactions outside established normal patterns.",
-      "impact": "Directly supports audit and compliance teams in risk mitigation.",
+      "problem": "Identify trends and predictive signals within stock datasets for better forecasting decisions.",
+      "data": "Historical stock prices including open, high, low, close, and trading volume.",
+      "approach": "Performed exploratory data analysis, feature engineering, and machine learning modelling.",
+      "insights": "Moving averages and volume shifts provided useful signals for short-term trends.",
+      "impact": "Showcases quantitative modelling relevant to portfolio and financial analysis roles.",
       "tools": [
-        "SQL",
-        "Power BI",
-        "Excel"
+        "Python",
+        "Pandas",
+        "Matplotlib",
+        "Scikit-Learn"
       ],
       "github": "https://github.com/gursingh1202/dataAnalysisProjects"
     },
     {
-      "title": "Financial KPI Dashboard",
-      "category": "Data Analytics",
-      "date": "2023",
-      "image": "assets/img/category4.jpg",
-      "problem": "Monitor departmental performance against budget and revenue targets.",
-      "data": "Capital and revenue budget datasets with operational cost markers.",
-      "approach": "Excel and Power BI variance analysis with automated refresh.",
-      "insights": "Identified specific overspending trends in operational cost centers.",
-      "impact": "Supports data-driven cost control and financial planning.",
-      "tools": [
-        "Excel",
-        "Power BI",
-        "SQL"
-      ],
-      "github": "https://github.com/gursingh1202/dataAnalysisProjects"
-    },
-    {
-      "title": "Data Quality & Validation Pipeline",
+      "title": "BBC News Web Scraper Pipeline",
       "category": "Data Infrastructure",
-      "date": "2024",
+      "date": "2023",
       "image": "assets/img/category3.jpg",
-      "problem": "Improve reliability of reporting data by resolving missing or inconsistent values.",
-      "data": "Operational datasets containing legacy inconsistencies.",
-      "approach": "Python validation scripts with comprehensive event logging.",
-      "insights": "Detected systematic missing entries affecting critical KPI accuracy.",
-      "impact": "Improved reporting reliability and ensured audit readiness.",
+      "problem": "Collect structured news article data for analytics and sentiment modelling projects.",
+      "data": "BBC news headlines, article links, and metadata extracted from public web pages.",
+      "approach": "Built Python scraping scripts with automated filtering and JSON storage pipelines.",
+      "insights": "Automation reduced manual sourcing time and improved data freshness.",
+      "impact": "Demonstrates data engineering and alternative data sourcing capabilities.",
       "tools": [
         "Python",
         "JSON",
-        "CSV"
+        "Web Scraping"
       ],
       "github": "https://github.com/gursingh1202/dataAnalysisProjects"
     },
     {
-      "title": "Cloud Risk Data Pipeline",
-      "category": "Cloud Infrastructure",
+      "title": "Healthcare Stroke Prediction Model",
+      "category": "Machine Learning",
       "date": "2024",
-      "image": "assets/img/category5.jpg",
-      "problem": "Process large-scale datasets for scalable risk analysis in a cloud environment.",
-      "data": "Financial transactions stored in unstructured cloud object storage.",
-      "approach": "AWS S3 and Athena integrated with Power BI for querying.",
-      "insights": "Enabled 5x faster querying across multi-terabyte datasets.",
-      "impact": "Demonstrates capability with modern cloud-based data architecture.",
+      "image": "assets/img/category4.jpg",
+      "problem": "Predict stroke likelihood using demographic, lifestyle, and health variables.",
+      "data": "Healthcare dataset containing age, BMI, glucose level, smoking status, and medical history.",
+      "approach": "Performed EDA, preprocessing, and classification modelling using Scikit-Learn.",
+      "insights": "Age, glucose level, and hypertension were strong predictors of stroke risk.",
+      "impact": "Demonstrates transferable predictive modelling skills for high-stakes decisions.",
       "tools": [
-        "AWS",
-        "S3",
-        "Athena"
+        "Python",
+        "Scikit-Learn",
+        "Seaborn"
       ],
-      "github": "https://github.com/gursingh1202/dataAnalysisProjects"
+      "github": "https://github.com/gursingh1202/ML-AIprojects"
+    },
+    {
+      "title": "Localized Web Hosting Platform",
+      "category": "Web Development",
+      "date": "2022",
+      "image": "assets/img/category5.jpg",
+      "problem": "Create a functional multi-page website with authentication and database connectivity.",
+      "data": "User registration, login, and contact form data managed through MySQL.",
+      "approach": "Built a PHP-based website using HTML, CSS, Apache server, and MySQL backend.",
+      "insights": "Database integration improved user management and dynamic functionality.",
+      "impact": "Showcases full-stack development and structured data management experience.",
+      "tools": [
+        "PHP",
+        "MySQL",
+        "HTML",
+        "CSS"
+      ],
+      "github": "https://github.com/gursingh1202/webDevProjects"
     }
   ],
   "experience": {
