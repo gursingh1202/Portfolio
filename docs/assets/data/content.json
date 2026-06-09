@@ -190,6 +190,19 @@
   "experience": {
     "work": [
       {
+        "date": "Sep 2023 - Present",
+        "title": "Data Analyst",
+        "organization": "Independent",
+        "summary": "Developed machine learning and predictive analytics solutions using financial market and news data to support investment research, risk analysis, and decision-making.",
+        "achievements": [
+          "Built NLP and time-series forecasting models across 10,000+ financial news articles, achieving 85% accuracy in predicting stock volatility and identifying market trends.",
+          "Developed regression and classification models using 10+ years of historical market data to forecast market direction, applying cross-validation techniques to improve model reliability.",
+          "Designed interactive Power BI dashboards to communicate market volatility, forecasting results, and risk insights to stakeholders.",
+          "Utilized Python (Pandas, NumPy, Scikit-learn), SQL, Excel, and Power BI for data preparation, analysis, modeling, and visualization."
+        ],
+        "impact": "Enabled data-driven investment analysis and risk assessment through predictive modeling, automated analytics workflows, and accessible business intelligence reporting."
+      }, 
+      {
         "date": "Feb 2024 - Nov 2024",
         "title": "Researcher",
         "organization": "United Italian Societies Research Centre",
