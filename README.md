@@ -38,7 +38,7 @@ Professional simulations (Forage): Risk, Controllers, Internal Audit, Operations
 ---
 
 ## Contact & Links
-- **Portfolio:** <https://your‑domain-or-localhost> (view the interactive site)
+- **Portfolio:** gursingh1202.github.io/Portfolio/
 - **Email:** [gur.singh1202@gmail.com](mailto:gur.singh1202@gmail.com)
 - **LinkedIn:** <https://www.linkedin.com/in/gurpreetsingh>
 - **GitHub:** <https://github.com/gurpreetsingh>
